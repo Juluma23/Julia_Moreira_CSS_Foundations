@@ -1,0 +1,89 @@
+h1{
+    color:rgb(42, 29, 0);
+    background-color: rgb(180, 212, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30 px;
+    font-weight: bold;
+    text-decoration:underline;
+    text-transform: uppercase;
+
+    /*border styling*/
+    border-style:solid;
+    border-width:5px 3px;
+    border-radius: 25 px;
+
+}
+
+h2{
+    color: rgb(161, 119, 161);
+    font-size: 20 px;
+    font-weight: 200;
+
+}
+
+h3{
+    color:rgb(54, 42, 42)
+
+}
+
+h4{
+    border-style:solid;
+    border-width: 10px, 10px, 4px,10px;
+    border-radius:25 px;
+}
+
+
+
+p{
+    font-size: medium;
+    line-height: normal;
+    border: 2px dashed black;
+    padding-left: 20 px;
+    padding-top: 20 px;
+    padding-bottom: 30 px;
+}
+
+
+.min-max{
+    width:100%; /*Adjusts to the width of browser*/
+    /*max-width: 500 px; */
+    background-color: blue;
+}
+
+div{
+
+width: 300 px;
+padding: 25 px;
+box-sizing:border-box;
+
+}
+
+body{
+    background-color: #dadad3; /*HEX*/
+    color: black; /*RGB*/
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12 px;
+    line-height: 20 px;
+    padding: 30 px;
+}
+
+/*Link Styling*/
+a:link {color:rgb(141, 141, 240);} 
+a:visited{color: grey;}
+a:hover{color:pink;
+text-decoration:underline;}
+a:active{color: purple;}
+
+p:hover{
+    color: rgb(158, 115, 158);
+    cursor: pointer; /* I added the cursor property, which specifies the mouse cursor to be displayed when pointing over an element.*/
+}
+
+ul{
+    color: black;
+    list-style-type: circle;
+    font-size: medium;
+    line-height: normal;
+}
+
+
